@@ -1,0 +1,43 @@
+.buttonDiv1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(112, 95, 185);
+    background-color: hwb(0 0% 100%);
+    font-family: 'Tahoma';
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 5px
+}
+
+#playButton {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(16, 100, 50);
+    background-color: rgb(185, 228, 205);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5
+}
+
+#stopButton {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(113, 27, 27);
+    background-color: rgb(217, 186, 186);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;  
+}
+
+#display {
+
+    filter: grayscale(40%) invert(75%);
+
+}

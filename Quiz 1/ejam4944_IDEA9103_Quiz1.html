@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+
+            <meta charset="UTF8" />
+
+            <link href="ejam4944_IDEA9103_Quiz1.css" rel="stylesheet">
+    
+            <title>IDEA9103: Evan James ejam4944 quiz 1</title>
+
+        </head>
+
+        <body>
+            
+            <!-- SVG -->            
+            <svg width="1000" height="1000">
+                <!-- defining shapes and gradients to use within SVG element-->
+                <defs>
+                    <!-- circles -->
+                    <circle 
+                        id="CircleSmall"
+                        cx="100"
+                        cy="100"
+                        r="100" />
+                    <circle 
+                        id="CircleMedium"
+                        cx="100"
+                        cy="100"
+                        r="100" />
+                    <circle 
+                        id="CircleLarge"
+                        cx="100"
+                        cy="100"
+                        r="300" />                 
+                    <!--gradients-->
+                    <linearGradient
+                        id="Gradient1" 
+                        gradientTransform="rotate(80)">
+                        <stop offset="10%" stop-colour="black" />
+                        <stop offset="50%" stop-color="white"/>
+                    />
+                    <linearGradient 
+                        id="Gradient2" 
+                        gradientTransform="rotate(90)">
+                        <stop offset="10%" stop-colour="black" />
+                        <stop offset="50%" stop-color="white"/>
+                    />
+                    <linearGradient
+                        id="Gradient3" gradientTransform="rotate(100)">
+                        <stop offset="10%" stop-colour="black" />
+                        <stop offset="50%" stop-color="white"/>
+                    />
+                    <linearGradient
+                        id="Gradient4" gradientTransform="rotate(55)">
+                        <stop offset="30%" stop-colour="grey" />
+                        <stop offset="60%" stop-colour="slategray" />                      
+                        <stop offset="90%" stop-color="white"/>
+                    />
+                </defs>
+                
+                <!-- drawing SVG shapes -->
+
+                <!-- rounded corner rectangle1 -->
+                <rect
+                x="870"
+                y="950" 
+                width="100" 
+                height="100" 
+                rx="25" 
+                ry="50" 
+                stroke="silver"
+                fill="indianred" 
+                stroke-width="3"
+                opacity=".35"
+                />
+
+                <!-- rounded corner rectangle2 -->
+                <rect
+                x="860"
+                y="950" 
+                width="80" 
+                height="80" 
+                rx="15" 
+                ry="35" 
+                stroke="silver"
+                fill="indianred" 
+                stroke-width="3"
+                opacity=".5"
+                />
+
+                <!-- rounded corner rectangle3 -->
+                <rect
+                x="850"
+                y="950" 
+                width="60" 
+                height="60" 
+                rx="5" 
+                ry="20" 
+                stroke="silver"
+                fill="indianred" 
+                stroke-width="3"
+                opacity=".6"
+                />
+
+                <!-- largecircle1 -->
+                <use x="495" y="0" href="#CircleLarge" fill="url('#Gradient1')" opacity="0.2"/>
+                <!-- red line1 -->
+                <line 
+                    x1="318"
+                    y1="0"
+                    x2="356"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="1"
+                />
+              
+                <!-- largecircle2 -->
+                <use x="615" y="4" href="#CircleLarge" fill="url('#Gradient1')" opacity="0.4"/>
+                <!-- red line2 -->
+                <line 
+                    x1="320"
+                    y1="0"
+                    x2="359"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="2"
+                />
+                <!-- polyline1 -->
+                <polyline
+                    points= "0, 1 300, 300 50, 250 40, 0"
+                    stroke="grey"
+                    stroke-width="5"
+                    fill="url('#Gradient4')"
+                />
+
+                <!-- largecircle3 -->
+                <use x="725" y="16" href="#CircleLarge" fill="url('#Gradient1')" opacity="0.6"/>
+                <!-- red line3 -->
+                <line 
+                    x1="325"
+                    y1="0"
+                    x2="364"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="3"
+                />
+                
+                <!-- rounded corner rectangle3 -->
+                <rect
+                x="130"
+                y="-50" 
+                width="100" 
+                height="100" 
+                rx="25" 
+                ry="50" 
+                stroke="indianred"
+                fill="silver" 
+                stroke-width="3"
+                opacity=".35"
+                />
+
+                <!-- rounded corner rectangle4 -->
+                <rect
+                x="140"
+                y="-50" 
+                width="80" 
+                height="80" 
+                rx="15" 
+                ry="35" 
+                stroke="indianred"
+                fill="silver" 
+                stroke-width="3"
+                opacity=".5"
+                />
+
+                <!-- rounded corner rectangle5 -->
+                <rect
+                x="150"
+                y="-50" 
+                width="60" 
+                height="60" 
+                rx="5" 
+                ry="20" 
+                stroke="indianred"
+                fill="silver" 
+                stroke-width="3"
+                opacity=".6"
+                />
+
+                <!-- largecircle4 -->
+                <use x="812" y="36" href="#CircleLarge" fill="url('#Gradient1')" opacity="0.8"/>
+                <!-- red line2 -->
+                <line 
+                    x1="333"
+                    y1="0"
+                    x2="373"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="4"
+                />
+              
+                <!-- largecircle5 -->
+                <use x="869" y="64" href="#CircleLarge" fill="url('#Gradient2')" opacity="0.95"/>
+                <!-- red line5 -->
+                <line 
+                    x1="345"
+                    y1="0"
+                    x2="386"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="5"
+                />
+              
+                <!-- largecircle6 -->
+                <use x="890" y="100" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line6 -->
+                <line 
+                    x1="362"
+                    y1="0"
+                    x2="405"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="6"
+                />
+              
+                <!-- largecircle7 -->
+                <use x="872" y="144" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line7 -->
+                <line 
+                    x1="384"
+                    y1="0"
+                    x2="430"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="7"
+                />
+                <!-- polyline2 -->
+                <polyline
+                    points= "1000, 1 290, 225 30, 225 60, 1000"
+                    stroke="white"
+                    stroke-width="5"
+                    fill="grey"
+                />
+
+                 <!-- path -->
+                 <path
+                 d="M 125 400 
+                 A 30 30 0 0 1 200 260
+                 A 10 10 0 0 1 225 300
+                 a 30 30 0 0 1 15 20
+                 a 30 30 0 0 1 10 15
+                "
+                 stroke="powderblue"
+                 stroke-width="4"
+                 fill="powderblue"
+                 fill-opacity=".2"
+                 stroke-dasharray="2,8"
+                 stroke-linecap="butt"
+             />
+
+                <!-- largecircle8 -->
+                <use x="818" y="196" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line8 -->
+                <line 
+                    x1="411"
+                    y1="0"
+                    x2="460"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="8"
+                />
+
+                <!-- largecircle9 -->
+                <use x="733" y="256" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line9 -->
+                <line 
+                    x1="441"
+                    y1="0"
+                    x2="494"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="9"
+                />
+
+                <!-- largecircle10 -->
+                <use x="626" y="324" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line10 -->
+                <line 
+                    x1="475"
+                    y1="0"
+                    x2="532"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="10"
+                />
+
+                <!-- largecircle11 -->
+                <use x="505" y="400" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line11 -->
+                <line 
+                    x1="510"
+                    y1="0"
+                    x2="571"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="11"
+                />
+              
+                <!-- largecircle12 -->
+                <use x="385" y="484" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line12 -->
+                <line 
+                    x1="544"
+                    y1="0"
+                    x2="610"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="12"
+                />
+
+                <!-- largecircle13 -->
+                <use x="275" y="576" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line13 -->
+                <line 
+                    x1="578"
+                    y1="0"
+                    x2="647"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="13"
+                />
+                <!-- polyline3 -->
+                <polyline
+                    points= "800 500, 500 800, 850 1500, 900 60, 800 500"
+                    stroke="pink"
+                    stroke-width="5"
+                    fill="black"
+                />
+                            
+                <!-- largecircle14 -->
+                <use x="188" y="676" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line14 -->
+                <line 
+                    x1="609"
+                    y1="0"
+                    x2="682"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="14"
+                    opacity="0.9"
+                />   
+                <!-- polyline4 -->
+                <polyline
+                    points= "800 500, 500 800, 850 1500, 900 60, 800 500"
+                    stroke="white"
+                    stroke-width="1"
+                    fill="lightcyan"
+                    fill-opacity="0.3"
+                />
+                 <!-- path -->
+                <path
+                    d="M 905 35 l 20 20 l 10 -25 
+                    A 30 30 0 0 1 805 55
+                    A 10 10 0 0 1 855 35
+                    a 30 30 0 0 1 15 20
+                    a 30 30 0 0 1 10 15
+                    Z"
+                    stroke="powderblue"
+                    stroke-width="2"
+                    fill="powderblue"
+                    fill-opacity=".3"
+                />
+
+                <!-- lower dashed path 1 -->
+                <path
+                    d="M 250 750 L 800 900"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-dasharray="5,10,10,15"
+                />
+                <!-- largecircle15 -->
+                <use x="131" y="784" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line15 -->
+                <line 
+                    x1="635"
+                    y1="0"
+                    x2="711"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="15"
+                    opacity="0.8"
+                />
+
+                />
+                <!-- largecircle16 -->
+                <use x="110" y="900" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line16 -->
+                <line 
+                    x1="657"
+                    y1="0"
+                    x2="736"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="16"
+                />
+              
+                <!-- largecircle17 -->
+                <use x="128" y="1024" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line17 -->
+                <line 
+                    x1="675"
+                    y1="0"
+                    x2="755"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="17"
+                    opacity="0.6"
+                />
+
+                <!-- largecircle18 -->
+                <use x="182" y="1156" href="#CircleLarge" fill="url('#Gradient3')" />
+                <!-- red line18 -->
+                <line 
+                    x1="687"
+                    y1="0"
+                    x2="769"
+                    y2="1000"
+                    stroke="red"
+                    stroke-width="18"
+                    opacity="0.4"
+                />
+              
+                <!-- largecircle19 -->
+                <use x="267" y="1296" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line19 -->
+                <line 
+                    x1="694"
+                    y1="-100"
+                    x2="778"
+                    y2="1100"
+                    stroke="red"
+                    stroke-width="19"
+                    opacity="0.15"
+                />
+          
+                <!-- largecircle20 -->
+                <use x="374" y="1444" href="#CircleLarge" fill="url('#Gradient2')" />
+                <!-- red line20 -->
+                <line 
+                    x1="699"
+                    y1="-100"
+                    x2="783"
+                    y2="1100"
+                    stroke="red"
+                    stroke-width="20"
+                    opacity="0.05"
+                />
+
+            </svg>
+
+        </body>
+    </html>

@@ -1,0 +1,115 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* div holding the svg canvas */
+#svg-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(151,125,82);     
+}
+
+/* styling for the svg canvas */
+#svg-canvas {
+    display: flex;
+    background-color: rgb(210,210,210);
+    opacity: 1; 
+}
+
+/* square-generating interactive button and div styling, including hover state */
+#button-div-rect {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(190,190,190);  
+}
+#rect-button {
+    color: beige;
+    background-color: rgb(96,109,71);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    border: 4px double beige;
+    padding: 10px;
+    cursor: pointer;
+}
+#rect-button:hover {
+    /* style change for hover state on button */
+    color: rgb(255, 255, 255);
+    background-color: rgb(100,84,137);
+    border: 4px double rgb(184,106,202);    
+    -webkit-transition: all 1s;
+}
+
+
+/* circle-generating interactive button and div styling, including hover state */
+#button-div-circle {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(190,190,190);  
+}
+#circle-button {
+    color: beige;
+    background-color: rgb(96,109,71);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 180px;
+    border: 4px double beige;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;  
+}
+#circle-button:hover {
+    /* style change for hover state on button */
+    color: rgb(255, 255, 255);
+    background-color: rgb(100,84,137);
+    border: 4px double rgb(184,106,202);    
+    -webkit-transition: all 1s; 
+}
+
+/* ellipse-generating interactive button and div styling, including hover state */
+#button-div-ellipse {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(190,190,190);  
+}
+#ellipse-button {
+    color: beige;
+    background-color: rgb(96,109,71);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    border: 4px double beige;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;  
+}
+#ellipse-button:hover {
+    /* style change for hover state on button */
+    color: rgb(255, 255, 255);
+    background-color: rgb(100,84,137);
+    border: 4px double rgb(184,106,202);    
+    -webkit-transition: all 1s; 
+}
+
+/* random colour-generating interactive button and div styling, including hover state*/
+#button-div-randomColour {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(127,127,127);  
+}
+#randomColour-button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(106,197,202);
+    font-family: Tahoma;
+    font-style: italic;
+    font-weight: 800;
+    font-size: large;
+    width: 280px;
+    border: 2px double rgb(255, 255, 255);
+    padding: 20px;
+    cursor: pointer;  
+}
+#randomColour-button:hover {
+    background-color: rgb(202,106,192);
+    color:azure;
+    -webkit-transition: all 1s;
+    border: 2px double rgb(106,197,202); 
+}
