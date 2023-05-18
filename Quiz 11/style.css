@@ -1,0 +1,107 @@
+* {
+    margin: 5;
+    padding: 5;
+}
+
+
+.container {
+    background-color: rgba(127, 255, 212, 0.15);
+    display: grid;
+    grid-template-columns: 0.4fr 2.2fr 0.4fr;
+    grid-template-rows: 0.3fr 0.3fr 2.4fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Top-Banner Top-Banner Top-Banner"
+      "Interaction-zone-left Interaction-zone-upper Interaction-zone-upper"
+      "Interaction-zone-left Main-SVG-stage Main-SVG-stage";
+}
+
+
+.Interaction-zone-left { 
+    grid-area: Interaction-zone-left;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(127, 255, 50, 0.15);
+}
+
+
+.Top-Banner { 
+    grid-area: Top-Banner;
+    background-color: rgba(127, 255, 255, 0.15);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.Interaction-zone-upper { 
+    grid-area: Interaction-zone-upper;
+    background-color: rgba(127, 255, 150, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.Main-SVG-stage {
+    grid-area: Main-SVG-stage;
+    filter: grayscale(50%);
+}
+
+
+#button1 {
+    display:flexbox;
+    justify-content: center;
+    color: rgb(16, 100, 50);
+    background-color: rgb(185, 228, 205);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5
+}
+
+#button2 {
+    display:flexbox;
+    justify-content: center;
+    color: rgb(32, 100, 50);
+    background-color: rgb(225, 228, 205);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5
+}
+
+#button3 {
+    display:flexbox;
+    justify-content: center;
+    color: rgb(64, 100, 50);
+    background-color: rgb(255, 228, 205);
+    font-family: 'Tahoma';
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5
+}
+
+#javascriptText {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-small;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
